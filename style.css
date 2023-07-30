@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: 	#b7e7ff !important;
+}
+
+.barr {
+    font-size: large !important;
+}
+.con{
+    margin-top: 30px;
+}
+
+.heading {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.parag{
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.points{
+    margin-left: 70px;
+    
+}
+.btn {
+    background-color: white !important;
+    /* Blue background */
+    border: none !important;
+    /* Remove borders */
+    color: black !important;
+    /* White text */
+    padding: 12px 16px !important;
+    /* Some padding */
+    font-size: 16px !important;
+    /* Set a font size */
+    cursor: pointer !important;
+    margin-right: 30px;
+    /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+
+.con{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline
+}
+img{
+    width: 80% !important;
+    border-radius: 5%;
+    align-items: center !important;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between !important;
+}
+p{
+    font-size: x-large !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+  }
+span{
+    color: #1b2c75;
+    font-size: larger;
+    font-weight: 600;
+}
+li{
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+    .two{
+        flex-direction: column;
+        margin-left: -40px;
+    }
+    p{
+        font-size:large  !important;
+    }
+    li{
+        font-size: large !important;
+    }
+    .parag{
+        padding-right: 25px;
+        font-size: 30px;
+    }
+    .heading{
+        margin-left: 30px;
+    }
+    .center{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    h1{
+        font-size: 2.5rem !important;
+    }
+    
+  }
